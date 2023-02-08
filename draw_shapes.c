@@ -34,7 +34,6 @@ void print_triangle(int leftCol, int size)
             for (       ; col <= maxCol; col++) putchar('*');
             putchar('\n');
         }
-        int i, j;
         int endCol = leftCol + size;
         for (int row = 0; row < size; row++){
             int col;
